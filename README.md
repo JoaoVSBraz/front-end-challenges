@@ -8,7 +8,7 @@
 
 <br>
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
 <th><p align="center">Challenge Name</p></th>
 <th><p align="center">Technologies</p></th>
