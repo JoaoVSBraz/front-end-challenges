@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 62.5%;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #161616;
+            font-family: 'IBM Plex Mono', monospace;;
+        }
+
+        .line{
+            color: #00cc0a;
+            font-size: 2.4rem;
+            border-right: 0.2rem solid #00cc0a;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .typing-animation{
+            animation: cursor 500ms steps(20) infinite normal, typing 1.5s steps(10) 1s normal both;
+        }
+
+        @keyframes typing {
+            from{
+                width: 0;
+            }
+            to{
+                width: 14rem;
+            }
+        }
+
+        @keyframes cursor {
+            from{
+                border-right-color: #00cc0a;
+            }
+            to{
+                border-right-color: transparent;
+            }
+        }
+    </style>
+</body>
+<p class="line typing-animation">Dev start</p>
+</html>
