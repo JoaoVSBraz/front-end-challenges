@@ -8,6 +8,7 @@
 
 <br>
 
+<div style="width: 100%; background-color: red;">
 <table align="center" width="100%">
 <tr>
 <th><p align="center">Challenge Name</p></th>
@@ -20,3 +21,4 @@
 <td><p align="center">Easy</p></td>
 </tr>
 </table>
+</div>
